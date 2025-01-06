@@ -18,11 +18,19 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url("../images/newbg.jpg");
-background-size: cover;
 
   }
 
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/newbg.jpg");
+    background-size: cover;
+    
+
+  }
 
  
 
@@ -237,16 +245,12 @@ left: 190px;
   width: auto;
   will-change: transform,opacity;
   z-index: 0;
-
   width: 95%;
   height: 42px;
 margin-left: 6px;
 background-color: rgba(255, 255, 255,0.8);
 font-family: "myFont";
 margin-top: 20px;
-
-
-
 }
 
 .btn:hover {
@@ -298,4 +302,15 @@ display: flex;
 justify-content: center;
 margin-top: 20px;
 
+}
+
+#loader{
+  display: none;
+  /* position: relative;
+  left: 185px;
+  color: white; */
+}
+
+#loginText{
+  font-size: 20px;
 }

@@ -9,11 +9,6 @@ padding: 0;
   src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
  }
 
- body{
-
-
-
- }
 
 
 
@@ -98,16 +93,7 @@ color: white;
 padding-right:35px ;
 
 } 
-.item input:hover {
-/* border: 2px black solid; */
-/* border-radius: 50px; */
 
-/* height: 42px; */
-
-
-
-
-} 
 .item input:focus {
   outline: none;
 
@@ -194,11 +180,7 @@ bottom: 33px;
 }
 
 
-span .user
-{
 
-
-}
 
 .remember-me span input
 {

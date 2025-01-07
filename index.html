@@ -25,12 +25,12 @@
                         </h1>
                     </div>
                     <label for="email" class="userName">Username: </label>
-                    <input type="email" required id="email">
+                    <input type="email" required id="email" autocomplete="email">
                     <span class="user">
                         <i class="fa-regular fa-user fa fa-light" style="color: white;"></i>
                     </span>
                     <label for="pass"> password:</label>
-                    <input type="password" required id="pass">
+                    <input type="password" required id="pass" autocomplete="current-password">
                     <span class="lock">
                         <i class="fa-solid fa-lock" style="color: white; "></i>
                     </span>
@@ -44,7 +44,7 @@
                             <a href="#">Forgot Password</a>
                         </span>
                     </div>
-                    <button class="btn" onclick="login()" role="button"><span class="spinner-border" id="loader"></span> <span id="loginText">Login</span></button>
+                    <button class="btn" type="button" onclick="login()" role="button"><span class="spinner-border" id="loader"></span> <span id="loginText">Login</span></button>
                     <div class="not-have-account-line">
                         <a href="#">Don't have an account? Register </a>
                     </div>
